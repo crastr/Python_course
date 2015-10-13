@@ -9,9 +9,9 @@ def rpfilter (number, args):
     for arg in args:
         if euclid(number, arg) == 1:
             nondividers.append(str(arg))
-    if nondividers == []:
-        return 'None'
-    else:
-        return ' '.join(nondividers)
+    return ' '.join(nondividers)
 a = ([int(i) for i in input().split()])
-print(rpfilter(a[0], list(a[1::])))
+if len((rpfilter(a[0], list(a[1::])))) == 0:
+    print('None')
+else:
+    print(rpfilter(a[0], list(a[1::])))

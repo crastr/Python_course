@@ -10,11 +10,8 @@ def prime(n):
                 verd = False
             else:
                 div += 1
-        if verd == True:
-            print('True')
-        else:
-            print('False')
+    return verd
 quant = int(input())
 for i in range (quant):
     a = int(input())
-    prime(a)
+    print(prime(a))
