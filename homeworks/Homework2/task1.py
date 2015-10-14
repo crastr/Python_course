@@ -1,4 +1,6 @@
 __author__ = 'Alex'
+
+
 def combinations(n, k):
     if k > n:
         return (0)
