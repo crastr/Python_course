@@ -7,4 +7,4 @@ def combinations(n, k):
     else:
         return combinations(n - 1, k - 1) + combinations(n - 1, k)
 a = ([int(i) for i in input().split()])
-print(combinations(a[0],a[1]))
+print(combinations(a[0], a[1]))
