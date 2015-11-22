@@ -1,4 +1,3 @@
-__author__ = 'Alex'
 with open("yazkora.txt", "r") as f:
     text = f.read()
 sentences = text.replace('\n', ' ')
