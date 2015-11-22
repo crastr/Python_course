@@ -15,6 +15,10 @@ for line in word:
         verb += 1
 print(adj, verb, noun)
 multiplier = 0
-for i in range(1, 8):
-    multiplier += math.factorial(adj)/(math.factorial(adj-i))
+if adj < 7:
+    for i in range(1, (adj+1)):
+        multiplier += math.factorial(adj)/(math.factorial(adj-i))
+else:
+    for i in range(1, 8)
+        multiplier += math.factorial(adj)/(math.factorial(adj-i))
 print(multiplier * verb * noun)
