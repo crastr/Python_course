@@ -13,7 +13,7 @@ for line in word:
         noun += 1
     else:
         verb += 1
-print(adj, verb, noun)
+
 multiplier = 0
 if adj < 7:
     for i in range(1, (adj+1)):
