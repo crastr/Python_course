@@ -2,7 +2,7 @@ with open("yazkora.txt", "r") as f:
     text = f.read()
 sentences = text.replace('\n', ' ')
 sentences = sentences.split('.')
-answer = ['']
+answer = []
 for line in sentences:
     words = line.split(' ')
     for word in words:
