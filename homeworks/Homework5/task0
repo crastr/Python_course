@@ -1,0 +1,6 @@
+# put your python code here
+import re
+import sys
+text = sys.stdin.read()
+number = len(re.findall("you", text))
+print(number)
